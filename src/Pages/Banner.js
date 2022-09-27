@@ -9,7 +9,7 @@ import chemIcon from '../assets/chemistry.png'
 
 const Banner = () => {
     return (
-        <div class="container-fluid p-5 bg-banner text-white text-center">
+        <div class="container-fluid bg-banner text-white text-center">
             <div className='d-flex justify-content-between align-center mb-5'>
                 <div className='absolute top-icon-left'>
                     <div className='position-absolute '><img src={conversation} alt='' /></div>
@@ -34,6 +34,42 @@ const Banner = () => {
                     <div className='position-absolute'><img src={conversation} alt='' /></div>
                     <img style={{ width: '28px' }} className='position-relative ms-3 mt-2' src={chemIcon} alt="" />
                 </div>
+            </div>
+            <div className='ms-0 d-flex justify-start align-items-start pb-5 ps-0'>
+                <div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}>
+                    </div>
+                </div>
+                <div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}>
+                    </div>
+                </div>
+                <div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}>
+                    </div>
+                </div>
+                <div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                    <div style={{ background: 'white', height: '5px', width: '5px', borderRadius: '40%', margin: '10px' }}></div>
+                </div>
+
             </div>
         </div>
     );
