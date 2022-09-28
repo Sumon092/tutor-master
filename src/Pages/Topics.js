@@ -6,7 +6,7 @@ import { FaLaptop } from 'react-icons/fa'
 
 const Topics = () => {
     return (
-        <section>
+        <section style={{ maxHeight: '100vh' }}>
             <div>
                 <h2 style={{ color: '#007CC2', fontFamily: 'poppins', fontSize: '35px' }} className='text-center mb-0'>On what you will be trained!</h2>
                 <p style={{ color: '#3E3E3E 93%', fontSize: '16px' }} className='text-center lh-0 mt-0 text-sm'>Tutor master will cover the following topics..</p>
