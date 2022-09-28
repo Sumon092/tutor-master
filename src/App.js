@@ -5,6 +5,7 @@ import Story from './Pages/Story';
 import Topics from './Pages/Topics';
 import WhyTutor from './Pages/WhyTutor';
 import Connection from './Pages/Connection';
+import PlayVideo from './Pages/PlayVideo';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Topics />
       <WhyTutor />
       <Connection />
+      <PlayVideo/>
 
     </>
   );
