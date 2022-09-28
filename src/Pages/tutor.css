@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&family=Poppins:wght@500;600;700&display=swap');
 
+
+:root {
+    --main-light-color: #f9bbb1;
+    --main-dark-color: #481b0b;
+    --main-background-color: #E5E5E5;
+
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
 .nav-logo {
     font-family: 'blinker';
     font-weight: 600;
@@ -69,4 +81,41 @@
     font-family: 'poppins';
     font-size: 20px;
     font-weight: 500;
+}
+
+
+
+.box {
+    width: 316px;
+    height: 314px;
+    /* border: solid black; */
+    margin: 6PX;
+    position: relative;
+    display: block;
+}
+
+/* .center {
+    padding-top: %;
+} */
+
+.dialog-box {
+    height: 100%;
+    width: 100%;
+    background-color: #f9f7f7;
+    position: absolute;
+    border: 1px solid #c4c4c4;
+}
+
+.top-point {
+    width: 10px;
+    height: 10px;
+    /* border: 1px solid #C4C4C4; */
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 50px solid #f7f3f3;
+    
+    position: absolute;
+    top: -12%;
+    left: 40%;
+    transform: rotate(175deg);
 }

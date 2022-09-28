@@ -4,6 +4,7 @@ import Banner from './Pages/Banner';
 import Story from './Pages/Story';
 import Topics from './Pages/Topics';
 import WhyTutor from './Pages/WhyTutor';
+import Connection from './Pages/Connection';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Story />
       <Topics />
       <WhyTutor />
+      <Connection />
 
     </>
   );
