@@ -6,7 +6,7 @@ const PlayVideo = () => {
     return (
         <section className='p-0'>
             <div>
-                <h2 style={{ color: '#007CC2', fontFamily: 'poppins', fontSize: '35px' }} className='text-center mb-0'>Why tutor master?</h2>
+                <h2 style={{ color: '#007CC2', fontFamily: 'poppins', fontSize: '35px' }} className='text-center mb-0'>Training Overview</h2>
             </div>
             <div className='d-flex justify-content-center align-items-center'>
                 <div style={{ width: '800px' }} className=' m-5'>
@@ -16,7 +16,7 @@ const PlayVideo = () => {
                     <div style={{ transform: 'translate(0px,-70px)' }} className='d-flex justify-content-between p-3'>
                         <div style={{ height: '15px' }}>
                             <div class="progress rounded-0">
-                                <div class="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar" role="progressbar" style={{ width: "100%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div className='d-flex justify-content-between' style={{ width: "300px" }}>
                                 <div>
