@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Pages/Header';
-import bootstrap from 'bootstrap'
 import Banner from './Pages/Banner';
+import Story from './Pages/Story';
 
 function App() {
   return (
     <>
       <Header />
       <Banner />
+      <Story />
 
     </>
   );

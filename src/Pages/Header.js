@@ -10,7 +10,7 @@ const Header = () => {
         <div className="container-fluid mt-3 ms-5">
           <Link className="navbar-brand nav-logo text-white fw-bold mb-0 lh-1" href="#">Tutor Master
             <br />
-            <span className='nav-sub-logo lh-1 '>knowledge Transfer</span>
+            <span className='nav-sub-logo lh-1 ms-1'>knowledge Transfer</span>
           </Link>
           <br />
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
