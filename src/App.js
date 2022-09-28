@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Pages/Header';
 import Banner from './Pages/Banner';
 import Story from './Pages/Story';
+import Topics from './Pages/Topics';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Banner />
       <Story />
+      <Topics />
 
     </>
   );

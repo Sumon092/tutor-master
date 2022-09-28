@@ -5,8 +5,8 @@ import { Button } from 'react-bootstrap';
 
 const Story = () => {
     return (
-        <div style={{ margin: '120px' }} className='d-flex justify-content-between'>
-            <div style={{ width: '400px', fontFamily: 'poppins', marginTop: '50px', color: 'gray' }}>
+        <div style={{ margin: '120px', maxHeight: '800px' }} className='d-flex justify-content-between'>
+            <div style={{ width: '400px', fontFamily: 'poppins', marginTop: '50px', color: 'gray', maxHeight: '800px' }}>
                 <h3 style={{ fontSize: '35px', fontWeight: '600', color: 'black' }}>The Story of Tutor
                     <br />
                     Master?
@@ -17,7 +17,7 @@ const Story = () => {
                 <p style={{ fontSize: '15px', color: 'gray' }}><span className='text-primary me-2'><FaCheck /></span>usp #1 showcase here with a brief as needed</p>
                 <Button className='btn-primary rounded-0'>know more</Button>
             </div>
-            <div>
+            <div style={{ maxHeight: '400px' }}>
                 <div style={{
                     width: '408px', height: '438px', border: '5px solid #007CC2', borderRadius: '0 150px 0 0'
                 }}>
