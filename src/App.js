@@ -7,6 +7,7 @@ import WhyTutor from './Pages/WhyTutor';
 import Connection from './Pages/Connection';
 import PlayVideo from './Pages/PlayVideo';
 import Trainer from './Pages/Trainer';
+import Footer from './Pages/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Connection />
         <PlayVideo />
         <Trainer />
+        <Footer />
       </div>
 
     </>
