@@ -54,10 +54,23 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <h1 className='banner-title'>Grow your mind and better
-                <br />
-                opportunities you will find
-            </h1>
+            <div className=''>
+                <h1 className='banner-title'>Grow your mind and better
+                    <br />
+                    opportunities you will find
+                </h1>
+                <div className='p-1'
+                    style={{ width: '70px', height: '35px', borderRadius: '8px 8px 8px 0', background: '#FFFFFF', transform: 'translate(585px,-155px)' }}>
+                    <div className='d-flex'>
+                        <div style={{ width: '30px', height: '30px', borderRadius: '50%', background: 'purple', border: '1px solid white' }}>
+                            <h5 className='text-sm'>S</h5>
+                        </div>
+                        <div style={{ width: '30px', height: '30px', borderRadius: '50%', background: 'green' }}>
+                            <h5 className='text-sm'>S</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <p className='banner-subtitle'>Be a good achiever, Shape your career!</p>
             <div className='d-flex justify-content-between align-center mt-5'>
                 <div className='absolute bottom-icon-left'>
