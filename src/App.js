@@ -10,13 +10,15 @@ import PlayVideo from './Pages/PlayVideo';
 function App() {
   return (
     <>
-      <Header />
-      <Banner />
-      <Story />
-      <Topics />
-      <WhyTutor />
-      <Connection />
-      <PlayVideo/>
+      <div>
+        <Header />
+        <Banner />
+        <Story />
+        <Topics />
+        <WhyTutor />
+        <Connection />
+        <PlayVideo />
+      </div>
 
     </>
   );
