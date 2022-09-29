@@ -6,6 +6,7 @@ import Topics from './Pages/Topics';
 import WhyTutor from './Pages/WhyTutor';
 import Connection from './Pages/Connection';
 import PlayVideo from './Pages/PlayVideo';
+import Trainer from './Pages/Trainer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <WhyTutor />
         <Connection />
         <PlayVideo />
+        <Trainer />
       </div>
 
     </>

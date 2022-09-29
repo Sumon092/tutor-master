@@ -20,7 +20,7 @@ const PlayVideo = () => {
                             </div>
                             <div className='d-flex justify-content-between' style={{ width: "300px" }}>
                                 <div>
-                                    <p><FaPlay /></p>
+                                    <p ><FaPlay /></p>
                                 </div>
                                 <div>
                                     <p>00/3:45</p>
